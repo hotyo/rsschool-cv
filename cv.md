@@ -35,3 +35,15 @@ I had used BootstrapVue, Node.js and Mysql.
 
 ***
 
+### Education
+2016 - 2020: GSU named after Franciscus Skorina  
+_Faculty_: physics and information Technology  
+_Specialization_: programmable mobile systems
+
+
+***
+
+
+### Languages
+* Russian: native
+* English: A2
