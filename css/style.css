@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+.container {
+    padding: 0 10%;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 5% 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+
+.contact-info {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.name {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+.contact-info img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.number, .mail, .skype, .git, .telegram {
+    font-family: Roboto;
+    font-size: 2vw;
+}
+
+article {border-top: 3px solid black;}
+
+@media(max-width: 768px) {
+    .container {padding: 0 5%;}
+    header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-img {
+        border-radius: 50%;
+        width: 25%;
+        height: 25%;
+    }
+    .contact-info {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .name {font-size: 8.5vw;}
+    .contact-info img {
+        width: 5vw;
+        height: 5vw;
+    }
+    .number, .mail, .skype, .git, .telegram {font-size: 6vw;}
+    article {border-top: 3px solid black;}
+}
